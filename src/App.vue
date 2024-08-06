@@ -1,10 +1,10 @@
 <script setup>
-import HelloWord from './components/HelloWord.vue';
+import MyComponent from './components/MyComponent.vue';
 </script>
 
 
 <template>
-  <HelloWord />
+  <MyComponent />
 </template>
 
 <style scoped></style>
