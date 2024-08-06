@@ -3,7 +3,7 @@
 
 <script setup>
     console.log('hello')
-    const myMsg = 'Test Meessage'
+    const link = 'https://www.logicanet.inf.br'
 
 </script>
 
@@ -11,8 +11,8 @@
 <!-- HTML -->
 
 <template>
-    <h1> {{myMsg}}</h1>
-    
+   <!-- <a v-bind:href="link">linsk</a> -->
+   <a :href="link">link</a>
 </template>
 
 <!-- CSS -->
